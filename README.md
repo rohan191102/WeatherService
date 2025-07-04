@@ -1,28 +1,32 @@
-# # Weather Service
+# 🌦️ Weather Service App
 
-Weather Service is a backend API that provides real-time weather data for any city using the OpenWeatherMap API. Built with Node.js and Express, this service is designed to power frontend applications, mobile apps, or other services requiring weather data.
-
----
-
-## Features
-
-- Real-time current weather data
-- City-based weather lookup
-- RESTful API design
-- Environment-based API key configuration
-- Modular and scalable backend architecture
+A full-stack weather microservice that fetches and caches real-time weather data using Redis, with a Node.js + Express backend and a responsive frontend. Dockerized, deployed, and CI/CD-enabled — designed for production-readiness.
 
 ---
 
-## Tech Stack
+## 🚀 Features
 
-- Node.js – Runtime environment
-- Express.js – Web framework
-- Axios or Fetch – For external API requests
-- dotenv – Environment variable management
-- OpenWeatherMap API – Source of weather data
+- 🌍 Live weather data via [OpenWeatherMap API](https://openweathermap.org/)
+- 🚀 Express-based REST API (`/weather?city=...`)
+- ⚡ Redis caching with automatic expiry
+- 💻 Responsive frontend with search bar
+- 🐳 Docker + Docker Compose setup
+- ☁️ Deployed backend (Azure App Service / Railway)
+- 🌐 Frontend hosted (Vercel / GitHub Pages)
+- 🔄 CI/CD via GitHub Actions
 
 ---
 
-## Project Structure
+## 🧱 Tech Stack
+
+| Layer        | Tools                          |
+|--------------|--------------------------------|
+| Frontend     | HTML, CSS, JavaScript          |
+| Backend      | Node.js, Express               |
+| API          | OpenWeatherMap API             |
+| Caching      | Redis                          |
+| Deployment   | Azure App Service, Vercel      |
+| DevOps       | Docker, GitHub Actions         |
+
+
 
